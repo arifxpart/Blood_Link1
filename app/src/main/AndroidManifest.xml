@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bloodlink.com">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/updatebloodlink"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/updatebloodlink"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AmbulanceActivity"></activity>
+        <activity android:name=".MainActivity"
+
+            />
+        <activity android:name=".AboutActivity" android:screenOrientation="portrait" />
+        <activity android:name=".FactActivity" />
+        <activity android:name=".BloodBankActivity" />
+        <activity android:name=".UserProfileActivity" />
+        <activity android:name=".DonnerAccpetFormActivity" />
+        <activity android:name=".Click2Activity" />
+        <activity android:name=".ShowPostActivity" />
+        <activity android:name=".PostCreateActivity" />
+        <activity android:name=".OnegativeSearchActivity" />
+        <activity android:name=".OpositiveSearchActivity" />
+        <activity android:name=".ABnegativeSearchActivity" />
+        <activity android:name=".ABpositiveSearchActivity" />
+        <activity android:name=".BnegativeSearchActivity" />
+        <activity android:name=".BpositiveSearchActivity" />
+        <activity android:name=".AnegativeSearchActivity" />
+        <activity android:name=".ClickActivity" />
+        <activity android:name=".ApositiveSearchActivity" />
+        <activity android:name=".SearchItemActivity" />
+        <activity android:name=".HomeActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".RegABnegativeActivity" />
+        <activity android:name=".RegABpositiveActivity" />
+        <activity android:name=".RegOnegativeActivity" />
+        <activity android:name=".RegOpositiveActivity" />
+        <activity android:name=".RegBnegativeActivity" />
+        <activity android:name=".RegBpositiveActivity" />
+        <activity android:name=".RegAnegativeActivity" />
+        <activity android:name=".RegApositiveActivity" />
+        <activity android:name=".CreateNewAccountActivity" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4198182563462163~8966940673"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="260dp"
+    android:layout_margin="5dp"
+
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Emergency Blood Needed ! "
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+<LinearLayout
+    android:layout_marginTop="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+<TextView
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:text="Blood Group  "
+    style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+    />
+
+    <TextView
+        android:id="@+id/user_blood"
+        style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B+"
+        android:textColor="@android:color/holo_red_dark" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Name  "
+        style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"/>
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khan arif"
+            style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Phone No  "
+            style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"/>
+
+
+
+        <TextView
+            android:id="@+id/user_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="01792927676"
+            style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+
+            />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Detials  "
+        style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"/>
+
+
+    <TextView
+        android:id="@+id/user_detials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detials : "
+        style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"/>
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/newaccpetbtnId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="accpet"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/done"
+            android:background="#8CA38C"
+            ></Button>
+ <Button
+     android:layout_marginLeft="10dp"
+            android:id="@+id/newcallbtnId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call"
+     android:drawableLeft="@drawable/call2"
+     android:layout_weight="1"
+     android:background="#269041"
+     android:layout_marginRight="10dp"
+            ></Button>
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accpet by"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Name  "
+            style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+            />
+
+        <TextView
+            android:id="@+id/user_donaername"
+            style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="null"
+            android:textColor="@android:color/holo_red_dark" />
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Phone No  "
+            style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+            />
+
+        <TextView
+            android:id="@+id/user_donerphone"
+            style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="null"
+            android:inputType="number"
+            android:maxLength="14"
+            android:textColor="@android:color/holo_red_dark" />
+    </LinearLayout>
+</LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

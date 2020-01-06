@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:padding="5dp"
+    tools:context=".PostCreateActivity">
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        android:layout_gravity="center"
+        ads:adUnitId="ca-app-pub-4198182563462163/3714613998">
+    </com.google.android.gms.ads.AdView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:text="Blood Group : "/>
+
+        <AutoCompleteTextView
+            android:id="@+id/postbloodgroupId"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:layout_height="40dp"
+            android:background="@drawable/box_style"
+            android:hint="রক্তের গ্রুপ"/>
+
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="Patent Problem : "/>
+
+        <EditText
+            android:id="@+id/postrugerproblemId"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/box_style"
+            android:textSize="20dp"
+            android:hint="রোগীর সমস্যা"/>
+
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="How many Bag : "/>
+
+        <EditText
+            android:id="@+id/posthowmanybagId"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/box_style"
+            android:textSize="20dp"
+            android:hint="রক্তের পরিমাণঃ"/>
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="District : "/>
+
+
+        <AutoCompleteTextView
+            android:id="@+id/postdistrictId"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/box_style"
+
+            android:hint="জেলাঃ"
+            android:textSize="20dp" />
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="Date : "/>
+
+        <EditText
+
+            android:id="@+id/postdataId"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/box_style"
+
+            android:textSize="20dp"
+            android:hint="তারিখঃ"/>
+
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="Time : "/>
+
+        <EditText
+
+            android:id="@+id/posttimeId"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/box_style"
+
+            android:textSize="20dp"
+            android:hint="সময়ঃ"/>
+
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="Hospital Name : "/>
+
+        <EditText
+            android:id="@+id/posthospitalId"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/box_style"
+
+            android:textSize="20dp"
+            android:hint="রক্তদানের স্থানঃ"/>
+
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="Your Name : "/>
+
+        <EditText
+            android:id="@+id/postnameId"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/box_style"
+            android:textSize="20dp"
+            android:hint="আপনার নামঃ"/>
+
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="Relaction : "/>
+
+        <EditText
+            android:id="@+id/postrelactionId"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/box_style"
+
+            android:textSize="20dp"
+            android:hint="রোগীর সাথে সম্পর্ক"/>
+
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="Communication Number : "/>
+
+        <EditText
+
+            android:inputType="number"
+            android:id="@+id/postnumberId"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/box_style"
+
+            android:textSize="20dp"
+            android:maxLength="14"
+            android:text="+880"
+            android:hint=" যোগাযোগকারীর নম্বরঃ"/>
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:id="@+id/postsavebtnId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post"
+            android:background="@color/colorPrimary"
+            android:textSize="20sp"/>
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="only donner writeable"-->
+<!--            android:textSize="20dp"-->
+<!--            android:textColor="@android:color/holo_red_dark"-->
+<!--            android:gravity="center"/>-->
+
+<!--      <EditText-->
+<!--        android:id="@+id/donnernameId"-->
+<!--          android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--            android:hint="Donner Name :"-->
+<!--          android:textSize="20dp"   />-->
+
+<!--      <EditText-->
+<!--          android:id="@+id/donnerphoneId"-->
+<!--           android:layout_width="match_parent"-->
+<!--          android:layout_height="wrap_content"-->
+<!--          android:hint="Donner Phone No :"-->
+<!--           android:textSize="20dp"-->
+<!--            />-->
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

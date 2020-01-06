@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+                android:orientation="horizontal"
+            android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ambulance"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="Ambulance"
+                    android:id="@+id/ambulanceviewId"
+                    android:drawableRight="@drawable/call_icon"
+                    />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

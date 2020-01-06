@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:padding="10dp"
+    android:background="@drawable/bloodlinkfinal">
+
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:scaleType="fitStart"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:src="@drawable/bloodlink"-->
+
+<!--        />-->
+
+    <TextView
+        android:layout_marginTop="110dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Link 0608"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        />
+
+
+<!--    <TextView-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="bloodlink0608@gmail.com"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        />-->
+
+
+</LinearLayout>

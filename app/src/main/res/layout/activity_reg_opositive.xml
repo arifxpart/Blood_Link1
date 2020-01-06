@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".RegOpositiveActivity">
+
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="90dp"-->
+<!--        android:orientation="vertical"-->
+<!--        android:background="#E74C3C">-->
+
+
+<!--        <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:src="@drawable/signupicon"/>-->
+<!--    </LinearLayout>-->
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4198182563462163/3714613998">
+    </com.google.android.gms.ads.AdView>
+    <ScrollView
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/opositiveregId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O+"
+                android:textSize="25dp"
+                android:textColor="#ff22"
+                android:gravity="center"
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name :"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                />
+
+            <EditText
+                android:id="@+id/opositivenameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/box_style"
+                android:hint="Name"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender :"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                />
+
+            <AutoCompleteTextView
+                android:id="@+id/opositivegenderId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Gender"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="@drawable/box_style"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email Address :"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                />
+            <EditText
+                android:id="@+id/opositiveemailId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="@drawable/box_style"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone Number :"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                />
+            <EditText
+                android:id="@+id/opositivephoneId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone No"
+                android:text="+880"
+                android:inputType="number"
+                android:maxLength="14"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="@drawable/box_style"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password :"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                />
+            <EditText
+                android:id="@+id/opositivepasswordId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textSize="20dp"
+                android:background="@drawable/box_style"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Confire Password :"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                />
+            <EditText
+                android:id="@+id/opositiveconfirmpasswordId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textSize="20dp"
+                android:background="@drawable/box_style"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="District :"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                />
+            <AutoCompleteTextView
+                android:id="@+id/opositivedistriceId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="District"
+                android:textSize="20dp"
+                android:background="@drawable/box_style"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Village/Area :"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                />
+            <EditText
+                android:id="@+id/opositivevillageId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:textSize="20dp"
+                android:background="@drawable/box_style"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="University/College :"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                />
+            <EditText
+                android:id="@+id/opositiveuniversityId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="University/College"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="@drawable/box_style"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last Blood Donate Date :"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                />
+            <EditText
+                android:id="@+id/opositivelastdonetId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="last Blood Donate Date"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="@drawable/box_style"/>
+
+            <Button
+                android:id="@+id/opositiveregbtnId"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:background="#ff22"
+                android:layout_marginBottom="10dp"
+
+                />
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

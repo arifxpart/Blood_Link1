@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Click2Activity">
+
+
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        android:layout_gravity="center"
+        ads:adUnitId="ca-app-pub-4198182563462163/3714613998">
+    </com.google.android.gms.ads.AdView>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="জরুরী রক্তের প্রয়োজন"
+            style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="রক্তের গ্রুপঃ"
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:id="@+id/show2bloodgroupId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B+"
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="20dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="রোগীর সমস্যাঃ"
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:id="@+id/show2rugerproblemId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Operation"
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="20dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="রক্তের পরিমাণঃ"
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:id="@+id/show2howmanybagId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১ ব্যাগ"
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="20dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="তারিখঃ"
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:id="@+id/show2dateId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=".. . . "
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="20dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="সময়ঃ"
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:id="@+id/show2timeId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=".. . . "
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="20dp"
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="রক্তদানের স্থানঃ"
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:id="@+id/show2hospitalId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=".. . . "
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="20dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="জেলাঃ"
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:id="@+id/show2districtId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=".. . . "
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="20dp"
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="রোগীর সাথে সম্পর্কঃ"
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:id="@+id/show2relactionId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=".. . . "
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="20dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="যোগাযোগকারীর নামঃ"
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="18dp"
+
+                />
+            <TextView
+                android:id="@+id/show2gogagognameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=".. . . "
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="20dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="যোগাযোগঃ"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/show2phoneId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=".. . . "
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:textSize="20dp"
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/show2callbtnId"
+            android:layout_weight="1"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:src="@drawable/call2"
+
+            />
+
+        <ImageView
+            android:id="@+id/show2sharebtnId"
+            android:layout_weight="1"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:src="@drawable/share"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accpeted Donner Info:"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name : "
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/showdonnernameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="null"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone : "
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/showdonnerphoneId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="null"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/showaccpetcallbtnId"
+            android:layout_weight="1"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:src="@drawable/call2"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+</ScrollView>
+
+    </LinearLayout>
+
+

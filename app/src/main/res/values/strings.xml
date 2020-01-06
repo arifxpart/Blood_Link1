@@ -1,0 +1,375 @@
+<resources>
+    <string name="app_name">Blood Link 0608 </string>
+
+<string-array name="ambulance">
+
+     <item>
+
+         Pabna Popular \n\n
+Address: Pabna popular Hospital, Pabna \n\n
+Mbole: 01765436700
+
+     </item>
+
+    <item>
+
+      Salman Ambulance Service  \n\n
+Address: H 4, Road-4, Dhanmondi, Dhaka. \n\n
+Mobile: 01941354079
+
+
+     </item>
+
+    <item>
+
+     Name: Ratul Islam \n\n
+Address: Nirala, west Bania khamer, Khulna \n\n
+Mobile: 01998556514
+
+
+     </item>
+
+ <item>
+
+     Enamul Haque \n\n
+Address: Birampur, dinajpur, Dinajpur \n\n
+Mobile: 01761853924
+
+
+     </item>
+
+
+ <item>
+
+    Zia Ambulance Service \n\n
+Address: Uttara, Dhaka. \n\n
+Mobile: 01671059513
+
+
+     </item>
+
+<item>
+
+    Amir Ambulance Service \n\n
+Address: Konabari trishal Mymensing, Mymensingh \n\n
+Mobile: 01937697201
+
+
+
+     </item>
+
+
+
+<item>
+
+
+Sylhet Ambulance Service \n\n
+Address: Medical College Road Sylhet, Sylhet \n\n
+Mobile: 01721520585
+
+     </item>
+
+
+
+<item>
+
+Raha Ambulance Service \n\n
+Address: Savar, Enam Medical College Road Thana Stand, Dhaka. \n\n
+Mobile: 01715636615
+
+     </item>
+
+
+<item>
+Ashraful Alom Akul  \n\n
+Address: Kulaura, Moulivibazar \n\n
+Mobile: 01716159228
+
+
+     </item>
+
+
+<item>
+  Sust Ambulance Service \n\n
+Address: Sust, Sylhet. \n\n
+Mobile: 01911506698
+
+
+     </item>
+
+
+<item>
+
+ Dr. Md. Enamul haque \n\n
+Address: Kolabagan Road Birampur, Dinajpur, Dinajpur. \n\n
+Mobile: 01761859324
+
+
+
+     </item>
+
+
+<item>
+Raihan Ambulance Service \n\n
+Address: Akhaura, Brahmanbaria \n\n
+Mobile: 01786003430
+
+     </item>
+
+
+<item>
+   মাতৃছায়া এ্যাম্বুলেন্স সার্ভিস \n\n
+Address: Narayanganj, Narayaganj \n\n
+Mobile: 01877744622
+
+     </item>
+
+
+
+<item>
+  Alif Ambulance Service \n\n
+47, Panchlaish R/A,
+Chittagong \n
+Phone: 01819380000, 01819325060
+
+
+     </item>
+
+
+<item>
+ Dead Body Carrier \n\n
+Chittagong \n
+Phone:031-650000
+
+
+     </item>
+
+
+<item>
+
+ General Hospital \n\n
+Chittagong \n
+Phone:031-619584
+
+
+     </item>
+
+
+<item>
+Modern Ambulance Service \n\n
+20, K.B. Fazlul Quader Road,
+Chittagong \n\n
+Phone:031-639730, 0154633214, 01716074497
+
+
+     </item>
+
+
+
+</string-array>
+
+
+
+
+    <string name="notice"> রক্ত দাতার তালিকা থেকে নম্বর নিয়ে অযথা কাউকে বিরক্ত করলে বিরক্ত কারীর বিরুদ্ধে আইনী পদক্ষেপ নিতে আমাদের সহায়তা করেছে বাংলাদেশ পুলিশের সাইবার ক্রাইম ব্রাঞ্চ \n\n
+অপরাধ সংঘটন থেকে বিরত থাকুন এবং মানব সেবায় এগিয়ে আসুন \n\n
+
+    Bangladesh Police Cyber Crime Branch Helps Us Take Legal Action Against Disturbed Person When Disturbing Someone With The Number From The Blood Donor List \n\n
+
+
+</string>
+
+    <string name="nav_open">open</string>
+    <string name="nav_close">close</string>
+
+
+    <string-array name="bloodbanks">
+
+        <item>  Bangladesh Red Crescent Blood Bank. \n
+
+            \n Address: 7/5, Aurangajeb Road,Dhaka. \n Open: 24 hours \n Phone: 02-9139940  </item>
+
+        <item>Bangladesh Blood Bank &amp; Transfusion Center \n
+            \n Address: 12,22 Babar Rd, Dhaka \n open : 24 Hours \n Phone: 01718-176854</item>
+
+        <item>Thalassemia Blood Bank \n
+            \n Address: 30 Chamelibag 1st Lane, Dhaka 1217 \n Open: 9am-5pm, \n Close: Saturday &amp; Sunday \n Phone No: 02-8332481 </item>
+
+        <item>Mukti Blood Bank &amp; Pathology Lab \n
+            \n Address: 54 (1st Floor),Bir-uttam A.M.\n Shafiullah Road, Free School St,Dhaka 1205. \n Open: 24 Hours \n Phone: 02-8624249 </item>
+
+        <item>Badhan \n Address: R C Mojumder Auditorium TSC \n
+            \n Secretariate Road, Dhaka 1000. \n Open: 6am-9pm \n Phone: 01534-982674 </item>
+
+        <item>
+            Quantum Lab
+            \n\n
+            Address: 31/V Shilpacharya Zainul Abedin \n Sarak Shantinagar, Dhaka 1217 \n Open:24 Hours \n Phone: 02-9351969</item>
+
+        <item>
+
+            Bloodinfobd.com \n\n
+            Address: Shahjadpur Bus Stand, Dhaka \n
+            Open : 9 am -11pm\n
+            Phone: 01709-848480
+
+        </item>
+<item>
+
+           Badhan Transfusion Center (BTC) \n\n
+    Dhaka University Campus, Dhaka, Bangladesh. \n
+    Open :24 Hours \n
+    Phone : 02-58612545 \n
+
+        </item>
+
+    </string-array>
+    <string-array name="factsdata">
+
+
+        <item> রক্ত দানের পূর্বে করণীয় : \n\n
+        গর্ভবতী রোগীর সিজারের জন্য সাধারনত ১ ব্যাগ রক্তের প্রয়োজন হয়... সর্বোচ্চ ২ ব্যাগ...
+        </item>
+
+        <item> রক্ত দানের পূর্বে করণীয় : \n\n
+        রক্তশুন্যতা রোগীর জন্য ১ বা ২ ব্যাগ... (প্রথমেই রোগীর হিমোগ্লোবিনের পরিমান জেনে নিবেন... লেভেল ১২ হলে নরমাল... ৯ এর নিচে নেমে গেলে সাধারনত রক্তের প্রয়োজন হয়)
+        </item>
+
+
+        <item> রক্ত দানের পূর্বে করণীয় : \n\n
+
+    ওপেন হার্ট সার্জারির জন্য ৪ থেকে ৬ ব্যাগ রক্তের প্রয়োজন হয়... এর বেশি রক্ত চাইলে বুঝতে হবে রোগী স্ট্যান্ডবাই ডোনার রাখতে চাচ্ছেন
+        </item>
+
+
+        <item> রক্ত দানের পূর্বে করণীয় : \n\n
+
+বাইপাস সার্জারির জন্য ৩-৪ ব্যাগ রক্ত
+</item>
+
+
+        <item> রক্ত দানের পূর্বে করণীয় : \n\n
+
+কিডনি ডায়ালসিসের জন্য সাধারনত ১ ব্যাগ রক্ত... মাসে ২-৩ বার লাগতে পারে
+</item>
+
+
+        <item> রক্ত দানের পূর্বে করণীয় : \n\n
+
+ডেঙ্গু জ্বরে আক্রান্ত রোগীর প্লাটিলেট প্রয়োজন হয়... সাধারণত প্রতিবারে ৪ ব্যাগ রক্ত হতে ১ ব্যাগ প্লাটিলেট নিয়ে রোগীর শরীরে দেয়া হয়... এফেরেসিস সিস্টেমে একজন রোগী থেকে ১ ব্যাগ প্লাটিলেট সংগ্রহ করা যায়
+</item>
+
+
+        <item> রক্ত দানের পূর্বে করণীয় : \n\n
+
+এক্সিডেন্টের রোগীর শারীরিক অবস্থার উপর নির্ভর করে রক্তের প্রয়োজন হয়
+</item>
+
+
+        <item> রক্ত দানের পূর্বে করণীয় : \n\n
+
+ব্লাড ক্যান্সারের রোগীর প্রচুর রক্তের প্রয়োজন হয়... তবে একসাথে ৪-৫ ব্যাগের বেশি রক্তের প্রয়োজন হয় না... ৪-৫ ব্যাগ দেয়ার কিছুদিন পরেই আবার রক্তের প্রয়োজন হয়... এভাবে চলতে থাকে
+</item>
+
+
+        <item> রক্ত দানের পূর্বে করণীয় : \n\n
+
+পিত্তথলির পাথরের অপারেশনের জন্য ব্লাড লাগে না... অভিজ্ঞতা থেকে বলছি... যদি অপারেশনের আগে রোগীর হিমোগ্লোবিন কম থাকে, তাহলে হিমোগ্লোবিন বাড়ানোর জন্য রক্ত লাগতে পারে.
+</item>
+
+
+        <item> রক্তদানের যোগ্যতা:- \n\n
+
+►রক্ত দাতার বয়স ১৮ থেকে ৬০ বছরের
+মধ্যে হতে হবে।
+</item>
+
+
+        <item> রক্তদানের যোগ্যতা:- \n\n
+►একজন সুস্থ সবল মানুষের জন্য নিয়মিত
+রক্তদানের পূর্বশর্ত হল-”স্বদিচ্ছা”
+</item>
+
+        <item> রক্তদানের যোগ্যতা:- \n\n
+
+► জ্বর, সর্দি, কাশি সুস্থ্য হবার
+কমপক্ষে ১ সপ্তাহ্ পর রক্তদান
+করা যাবে।
+</item>
+
+
+        <item> রক্তদানের যোগ্যতা:- \n\n
+►বিগত ৬(ছয়) মাসের মধ্যে যদি আপনার
+বড় কোন অপারেশন না হয়ে থাকে।
+</item>
+
+        <item> রক্তদানের যোগ্যতা:- \n\n
+ ► নারীদের ক্ষেত্রে- গর্ভাবস্থায়
+এবং মেয়েলি সমস্যা চলাকালিন
+সময় রক্ত দিতে পারবেনা।
+
+</item>
+
+        <item> রক্তদানের যোগ্যতা:- \n\n
+ ►রক্তে হিমোগ্লোবিনের পরিমাণ,
+ব্লাড প্রেসার এবং শরীরের
+তাপমাত্রা স্বাভাবিক
+থাকতে হবে।
+
+</item>
+
+
+        <item> রক্তদানের যোগ্যতা:- \n\n
+ ►শারীরিক ওজনঃ- মেয়েদের
+ক্ষেত্রে ৪৭ কেজি এবং ছেলেদের
+ক্ষেত্রে ৫০ কেজি বা এর
+বেশি হতে হবে।
+</item>
+
+
+        <item> রক্তদানের যোগ্যতা:- \n\n
+►স্বাস্থ্য ঠিক থাকলে পুরুষরা বছরে ৪
+বার এবং নারীরা বছরে সর্বোচ্চ ৩
+বার রক্তদান করতে পারবে।
+</item>
+
+
+        <item> রক্তদানের যোগ্যতা:- \n\n
+ ► কোন প্রকার টিকা গ্রহণ করলে ২৮
+দিন পর এবং এন্টিবায়োটিক ঔষধ
+সেবন করার ৭ দিন পর রক্ত-দান
+করা যাবে।
+</item>
+
+
+        <item> রক্ত দানের পূর্বে করণীয় : \n\n
+        রক্ত দেয়ার আগের রাতে পরিপূর্ণ ঘুম প্রয়োজন।
+        </item>
+
+        <item> রক্ত দানের পূর্বে করণীয় : \n \n
+        রক্ত দানের পূর্বে অতিরিক্ত ১৬ আউন্স পানি বা তরল খাবার গ্রহণ করতে  হবে।
+        </item>
+
+        <item>রক্ত দানের পূর্বে করণীয় : \n\n
+        যদি আপনি প্লাটিলেট ডোনার হয়ে থাকেন তাহলে রক্তদানের অন্তত ২ দিন আগে থেকেই অ্যাসপিরিন গ্রহণ বন্ধ করতে হবে আপনাকে।
+        </item>
+
+        <item>রক্ত দানের পূর্বে করণীয় : \n\n
+        রক্তদানের ১২ ঘন্টা পূর্বে লবণাক্ত খাবার যেমন- সল্টেড বিস্কুট বা চিপস খান। কারণ রক্তদান করলে দেহ থেকে ৩ গ্রাম লবণ বের হয়ে যায়।
+        </item>
+
+
+    </string-array>
+
+    <string name="call">
+
+        Do you want to call?
+    </string>
+
+    <string name="ambulance">
+
+   আপনি যদি ৯৯৯ সেবা নিতে চান, তাহলে ৯৯৯ কল বাটনে ক্লিক করুন।
+আর যদি আপনি জেলা ভিত্তিক অ্যাম্বুলেন্স সার্চ করতে চান, তাহলে  অ্যাম্বুলেন্স সার্চ বাটনে ক্লিক করুন।
+
+    </string>
+</resources>
